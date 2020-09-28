@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    font-size: 18px;
+    width: 100%;
+    height: 110vh;
+    transition: 1s linear;
+}
+
+.form{
+    height: 92vh;
+    text-transform: uppercase;
+    width: 900px;
+    position: relative;
+    font-weight: 700;
+    font-family: "Fondamento";
+    top: 3%;
+    left: 18%;
+    padding: 10px;
+    box-shadow: 1px 2px 13px 3px grey;
+     transition: 1s linear;
+}
+#button{
+    float: right;
+}
+.form:hover{
+    transition: 0.7s linear;
+    font-size: 19px;
+}
+.main h2{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    font-family: "poopins";
+    font-weight: 700;
+    text-shadow:2px 1px orangered;
+    box-shadow:1px 1px 15px 3px grey;
+    padding-top: 10px;
+    font-size: 40px;
+    /* background: linear-gradient(orange,yellow); */
+}
+.main h2:hover{
+    text-shadow: 2px 1px yellow;
+}
+.image{
+    position: absolute;
+    background-size: cover;
+    z-index: -1000;
+}
+.image img{
+    width: 100%;
+    height: 110vh;   
+}
+#button:hover{
+    font-size: 18px;
+    transition: 0.6s linear;
+    background-color:orange;
+}
+@media only screen and (max-width:1140px)
+{
+    .form{
+        font-size: 10px;
+        position: relative;
+        left: 5%;
+        font-size: 15px;
+        width: 800px;
+    }
+    .form:hover{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width:870px)
+{
+    .form{
+        font-size: 8px;
+        position: relative;
+        left: 2%;
+        font-size: 10px;
+        width: 700px;
+    }
+    .form:hover{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:770px)
+{
+    .form{
+        font-size: 8px;
+        position: relative;
+        left: 2%;
+        font-size: 12px;
+        width: 700px;
+        height: 106vh;
+        
+    }
+    .image img{
+        height: 130vh;
+    }
+    .form:hover{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:585px)
+{
+    .image img{
+        height: 160vh;
+    }
+    .form{
+        height: 160vh;
+        width: 470px;
+    }
+  
+}

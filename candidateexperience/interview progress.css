@@ -1,0 +1,16 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.heading {
+	font-size: 35px;
+}
+.table1{
+	margin-top: 10%;
+}
+@media only screen and(max-width: 1232px){
+	.image img{
+		width: 100%;
+	}
+}

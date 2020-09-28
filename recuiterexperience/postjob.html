@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Fondamento' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="postjob.css">
+</head>
+
+<body>
+    <div class="image">
+        <img src="job.jpg">
+    </div>
+    <div class="container-fluid text-center main">
+        <div class="heading">
+            <h2 style="">Post Job </h2>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="form-group content" style="width: 500px;">
+            <label for="jobtitle" style="font-size: 20px;padding-bottom:2px;">Job Title :&nbsp </label>
+            <input type="text" id="jobtitle" class="form-control">
+            <label for="joblocation" style="font-size: 20px;padding-bottom:2px;">Job Location</label>
+            <select class="form-control">
+                <option>Select State</option>
+                <option>Delhi</option>
+                <option>Haryana</option>
+                <option>Punjab</option>
+                <option>Uttar Pradesh</option>
+                <option>Maharasthra</option>
+                <option>Gujarat</option>
+                <option>Andhra Pradesh</option>
+                <option>Karnataka</option>
+                <option>Rajasthan</option>
+                <option>Kerala</option>
+                <option>Madhya Pradesh</option>
+                <option>Goa</option>
+            </select><br>
+            <label for="jobtype" style="font-size: 20px;border-bottom:1px solid black;padding-bottom:2px;">Job
+                Type</label><br>
+            <div class="text-center">
+                <input type="checkbox" id="Fulltime" name="fulltime">&nbsp&nbsp&nbsp&nbsp Full-Time<br>
+                <input type="checkbox" id="parttime" name="parttime">&nbsp&nbsp&nbsp&nbsp Part-Time<br>
+                <input type="checkbox" id="temporary" name="temporary">&nbsp&nbsp&nbsp Temporary<br>
+                <input type="checkbox" id="contract" name="contract">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Contract<br>
+                <input type="checkbox" id="internship" name="internship"> &nbsp&nbsp&nbspInternship<br>
+                <input type="checkbox" id="commission" name="commission"> Commission<br>
+                <input type="checkbox" id="volunteer" name="volunteer"> &nbsp&nbsp&nbsp&nbsp&nbspVolunteer<br>
+                <input type="checkbox" id="fresher" name="fresher"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspFresher<br>
+                <input type="checkbox" id="walkin" name="walkin"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspWalk-in<br>
+            </div>
+            <label for="jobdescription">Job Description</label><br>
+            <textarea id="jobdescription" name="jobdescription" style="width: 400px;"></textarea>
+            <input type="submit" class="btn btn-primary">
+        </div>
+    </div>
+</body>
+
+</html>
